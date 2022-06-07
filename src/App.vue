@@ -30,6 +30,9 @@ export default {
   color: #939caa;
 }
 
+body {
+  overflow-x: hidden;
+}
 h1,
 h2,
 h3,
