@@ -1,12 +1,14 @@
 <template>
-  <div class="container">
-    <h1>This is a home page</h1>
-  </div>
+  <SiteBanner />
+  <GetStart />
 </template>
 
 <script>
+import SiteBanner from "../components/SiteBanner.vue";
+import GetStart from "../components/GetStart.vue";
+
 export default {
   name: "HomeView",
-  components: {},
+  components: { SiteBanner, GetStart },
 };
 </script>

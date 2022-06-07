@@ -15,6 +15,14 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #app {
   font-family: "Lexend Deca", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
