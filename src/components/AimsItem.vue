@@ -3,7 +3,7 @@
     <div class="aim-info">
       <h2 class="aim-title">{{ aim.title }}</h2>
       <p class="aim-text">{{ aim.text }}</p>
-      <a href="#" v-show="aim.link" class="aim-btn">Leaen More</a>
+      <a href="#" v-if="aim.link" class="aim-btn">Leaen More</a>
     </div>
 
     <img

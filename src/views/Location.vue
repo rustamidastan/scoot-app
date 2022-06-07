@@ -1,11 +1,19 @@
 <template>
-  <div class="container">
-    <h1>This is Location page</h1>
-  </div>
+  <PageBanner :title="title" />
 </template>
 
 <script>
-export default {};
+import PageBanner from "@/components/PageBanner.vue";
+export default {
+  components: {
+    PageBanner,
+  },
+  data() {
+    return {
+      title: "Location",
+    };
+  },
+};
 </script>
 
 <style></style>
