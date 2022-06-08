@@ -51,7 +51,6 @@ export default {
   transition: all 0.3 s ease;
   text-decoration: none;
 }
-
 .location-info__lnk:hover {
   border-color: #fcb72b;
   color: #fcb72b;
