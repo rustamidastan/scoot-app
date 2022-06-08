@@ -48,6 +48,7 @@ export default {
 
 .tab-icon {
   color: #fcb72b;
+  animation: dropdownIconDown 300ms ease-in-out forwards;
 }
 
 .faq-item__btn.active {
@@ -55,10 +56,10 @@ export default {
 }
 
 .faq-item__btn.active .tab-icon {
-  animation: dropdownIcon 300ms ease-in-out forwards;
+  animation: dropdownIconUp 300ms ease-in-out forwards;
 }
 
-@keyframes dropdownIcon {
+@keyframes dropdownIconUp {
   0% {
     transform: rotate(0deg);
   }
@@ -67,6 +68,18 @@ export default {
   }
   100% {
     transform: rotate(180deg);
+  }
+}
+
+@keyframes dropdownIconDown {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
