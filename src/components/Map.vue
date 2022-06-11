@@ -30,8 +30,8 @@ export default {};
 }
 
 .map-cities {
-  margin-top: 40px;
   display: none;
+  margin-top: 40px;
 }
 
 .city {
