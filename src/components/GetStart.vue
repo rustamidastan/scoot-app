@@ -70,4 +70,26 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 850px) {
+  .get-start .container::before {
+    width: 15px;
+    height: 513px;
+    top: 0px;
+    left: 100px;
+  }
+  .get-start ul {
+    flex-direction: column;
+  }
+  .get-start {
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .get-start .container::before {
+    display: none;
+  }
+}
 </style>

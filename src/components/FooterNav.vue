@@ -85,4 +85,34 @@ export default {};
 .footer-nav__socials a:not(:last-child) {
   margin-right: 24px;
 }
+
+@media screen and (max-width: 450px) {
+  .footer-nav {
+    padding-top: 64px;
+    padding-bottom: 88px;
+  }
+  .footer-nav__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-nav__links {
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-nav__links a:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+
+  .footer-nav__socials {
+    margin-left: 0;
+  }
+}
 </style>

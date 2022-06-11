@@ -1,5 +1,5 @@
 <template>
-  <Navbar />
+  <Navbar @menu="getMenu" />
   <router-view />
 </template>
 
@@ -9,6 +9,19 @@ import Navbar from "./components/Navbar.vue";
 export default {
   components: {
     Navbar,
+  },
+
+  data() {
+    return {
+      menu: false,
+    };
+  },
+
+  methods: {
+    getMenu(menu) {
+      this.menu = menu;
+      console.log(this.menu);
+    },
   },
 };
 </script>
@@ -44,5 +57,24 @@ a {
 .container {
   max-width: 1110px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 690px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 315px !important;
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
 }
 </style>

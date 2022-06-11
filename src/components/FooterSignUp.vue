@@ -62,4 +62,36 @@ export default {};
 .sign-up__btn:first-child {
   margin-right: 20px;
 }
+
+@media screen and (max-width: 850px) {
+  .sign-up {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background-position: 60% -300%;
+  }
+
+  .sign-up__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sign-up__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sign-up {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    background-position: -550px 150px;
+  }
+
+  .sign-up__title {
+    font-size: 32px;
+    letter-spacing: -1.43px;
+  }
+}
 </style>

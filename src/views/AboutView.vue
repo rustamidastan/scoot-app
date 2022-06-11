@@ -116,4 +116,42 @@ export default {
 .about .aim-wrapper:first-child {
   margin-bottom: 200px;
 }
+
+@media screen and (max-width: 850px) {
+  .about .aim-image {
+    position: unset;
+    position: relative;
+    right: -45px;
+    /* margin-bottom: 56px; */
+  }
+
+  .about .aim-wrapper.odd .aim-image {
+    position: unset;
+    position: relative;
+    left: -100px;
+    margin-bottom: 56px;
+  }
+
+  .about .aim-wrapper:first-child {
+    margin-bottom: 0px;
+  }
+
+  .about .aim-wrapper.odd {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about .aim-image {
+    width: 520px;
+    height: 311px;
+    right: -30px;
+  }
+
+  .about .aim-wrapper.odd .aim-image {
+    width: 420px;
+    height: 311px;
+    left: -60px;
+  }
+}
 </style>

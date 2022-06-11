@@ -91,4 +91,12 @@ export default {
   height: 445px;
   right: -44px;
 }
+
+@media screen and (max-width: 850px) {
+  .careers .aim-image {
+    width: 520px;
+    height: 311px;
+    right: -30px;
+  }
+}
 </style>

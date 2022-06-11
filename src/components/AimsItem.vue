@@ -54,14 +54,13 @@ export default {
   margin-bottom: 25px;
 }
 
-.aim.text {
+.aim-text {
   margin-bottom: 40px;
 }
 
 .aim-btn {
   display: inline-block !important;
   padding: 14px 45px;
-  margin-top: 40px;
   background-color: #fcb72b;
   border: 3px solid transparent;
   color: #fff;
@@ -85,5 +84,78 @@ export default {
 .aim-wrapper.odd .aim-image {
   position: absolute;
   left: -544px;
+}
+
+@media screen and (max-width: 850px) {
+  .aim-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    flex-direction: column-reverse;
+    padding-bottom: 138px;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .aim-wrapper.odd {
+    flex-direction: column-reverse;
+    padding-bottom: 138px;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .aim-image {
+    position: relative;
+    right: -220px;
+    height: 445px;
+    margin-bottom: 56px;
+  }
+
+  .aim-wrapper.odd .aim-image {
+    position: relative;
+    left: -210px;
+    height: 445px;
+    margin-bottom: 56px;
+  }
+
+  .aim-info {
+    max-width: 573px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aim-title {
+    width: 460px;
+    text-align: center;
+  }
+
+  .aim-text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .aim-image {
+    width: 690px;
+    height: 311px;
+    right: -170px;
+  }
+
+  .aim-wrapper.odd .aim-image {
+    width: 690px;
+    height: 311px;
+  }
+
+  .aim-info {
+    max-width: 315px;
+  }
+
+  .aim-title {
+    max-width: 315px;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.43px;
+  }
 }
 </style>

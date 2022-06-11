@@ -4,9 +4,11 @@
       <img :src="getStartProps.img" alt="" />
     </div>
 
-    <h3 class="get-start-title">{{ getStartProps.title }}</h3>
+    <div>
+      <h3 class="get-start-title">{{ getStartProps.title }}</h3>
 
-    <p class="get-start-text">{{ getStartProps.text }}</p>
+      <p class="get-start-text">{{ getStartProps.text }}</p>
+    </div>
   </div>
 </template>
 
@@ -40,5 +42,47 @@ export default {
 .get-start-text {
   width: 350px;
   color: #939caa;
+}
+
+@media screen and (max-width: 850px) {
+  .get-start-item {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .img-wrapper {
+    margin-right: 80px;
+  }
+
+  .get-start-title {
+    margin-top: 0;
+  }
+
+  .get-start-text {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .get-start-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .get-start-text {
+    width: 311px;
+    text-align: center;
+  }
+
+  .get-start-title {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .img-wrapper {
+    margin-right: 0;
+  }
 }
 </style>

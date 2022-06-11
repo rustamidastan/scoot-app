@@ -38,4 +38,23 @@ export default {
   color: #495567;
   letter-spacing: -1.8px;
 }
+
+@media screen and (max-width: 850px) {
+  .faqs-group {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .faqs-group__title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .faqs-group__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
 </style>

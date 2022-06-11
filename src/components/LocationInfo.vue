@@ -56,4 +56,34 @@ export default {
   color: #fcb72b;
   background-color: transparent;
 }
+
+@media screen and (max-width: 850px) {
+  .location-info__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .location-info__text {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .location-info__title {
+    width: 460px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .location-info__title {
+    width: 311px;
+    font-size: 32px;
+  }
+
+  .location-info__text {
+    width: 311px;
+    margin: 32px 0;
+  }
+}
 </style>

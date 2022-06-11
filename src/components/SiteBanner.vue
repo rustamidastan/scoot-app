@@ -1,6 +1,6 @@
 <template>
   <section class="banner">
-    <div class="container">
+    <div class="container banner__container">
       <h1 class="banner-title">Scooter sharing made simple</h1>
       <img class="banner-line-img" src="../assets/line.svg" alt="" />
       <p class="banner-text">
@@ -38,10 +38,8 @@ export default {};
   background-position: center;
 }
 
-.container {
+.banner__container {
   position: relative;
-  max-width: 1110px;
-  margin: 0 auto;
 }
 
 .banner-title {
@@ -102,5 +100,76 @@ export default {};
   position: absolute;
   right: -190px;
   bottom: 13px;
+}
+
+@media screen and (max-width: 850px) {
+  .banner {
+    padding-bottom: 217px;
+  }
+
+  .banner__container {
+    position: unset;
+  }
+  .banner-line-img {
+    display: none;
+  }
+
+  .banner-title {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .banner-text {
+    width: 573px;
+    position: unset;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .link {
+    position: unset;
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .banner-go-to-right-img {
+    left: -125px;
+    bottom: 40px;
+  }
+
+  .banner-circle-img {
+    right: 0px;
+    bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .banner {
+    padding-top: 115px;
+    padding-bottom: 180px;
+  }
+
+  .banner-title {
+    width: 315px;
+    font-size: 39px;
+    line-height: 1;
+    letter-spacing: 1.8px;
+  }
+
+  .banner-text {
+    width: 315px;
+  }
+
+  .banner-circle-img {
+    display: none;
+  }
+
+  .banner-go-to-right-img {
+    left: -305px;
+    bottom: 35px;
+  }
 }
 </style>

@@ -22,4 +22,11 @@ export default {
   padding-top: 100px;
   padding-bottom: 180px;
 }
+
+@media screen and (max-width: 850px) {
+  .aims {
+    padding-top: 70px;
+    padding-bottom: 0;
+  }
+}
 </style>

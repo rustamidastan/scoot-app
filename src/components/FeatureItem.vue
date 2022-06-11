@@ -59,4 +59,10 @@ export default {
   line-height: 25px;
   text-align: center;
 }
+
+@media screen and (max-width: 850px) {
+  .feature-item {
+    max-width: 460px;
+  }
+}
 </style>

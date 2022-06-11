@@ -24,6 +24,11 @@ export default {
   width: 730px;
   padding: 32px 40px;
   background-color: #f2f5f9;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #fff4df;
 }
 
 .faq-item:not(:last-child) {
@@ -87,5 +92,21 @@ export default {
   font-size: 15px;
   line-height: 25px;
   color: #495567;
+}
+
+@media screen and (max-width: 450px) {
+  .faq-item {
+    width: 311px;
+    padding: 32px;
+  }
+
+  .faq-item__btn {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .tab-icon {
+    margin-left: 16px;
+  }
 }
 </style>

@@ -31,4 +31,15 @@ export default {
   color: #495567;
   margin-bottom: 64px;
 }
+
+@media screen and (max-width: 450px) {
+  .faqs-title {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+
+  .faqs {
+    padding-bottom: 120px;
+  }
+}
 </style>

@@ -45,4 +45,20 @@ export default {
 .feature-item:not(:last-child) {
   margin-right: 30px;
 }
+
+@media screen and (max-width: 850px) {
+  .features {
+    padding-top: 0;
+  }
+  .features-items {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .feature-item:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 55px;
+  }
+}
 </style>

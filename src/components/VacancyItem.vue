@@ -64,4 +64,29 @@ export default {
   color: #fcb72b;
   background-color: transparent;
 }
+
+@media screen and (max-width: 450px) {
+  .vacancy-item {
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .job-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+
+  .vacancy-location {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .vacancy-item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
 </style>
