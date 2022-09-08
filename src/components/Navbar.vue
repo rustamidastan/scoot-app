@@ -52,6 +52,7 @@ export default {
     mainPage() {
       if (this.menu == true) {
         this.menu = !this.menu;
+        this.$emit("menu", this.menu);
       }
     },
   },

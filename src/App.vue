@@ -17,6 +17,16 @@ export default {
     };
   },
 
+  watch: {
+    menu: function (newMenu) {
+      if (newMenu == true) {
+        document.body.classList.add("body-active");
+      } else {
+        document.body.classList.remove("body-active");
+      }
+    },
+  },
+
   methods: {
     getMenu(menu) {
       this.menu = menu;
@@ -76,5 +86,9 @@ a {
   body {
     overflow-x: hidden !important;
   }
+}
+
+.body-active {
+  overflow: hidden;
 }
 </style>
