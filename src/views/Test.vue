@@ -42,7 +42,7 @@ Weight:<span itemprop="weight">4 kgr</span>
 
 Carpet Id:<span>nmd8457-399</span>
 
-<div itemprop="offers"itemscope itemtype="https://schema.org/Offer">
+<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
 
 Category:<span itemprop="category">Lori - Bakhtiari</span>
 
