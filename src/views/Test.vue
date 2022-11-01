@@ -23,8 +23,6 @@
       </div>
 
       <div itemscope itemtype="https://schema.org/Place">
-                    <link itemprop="additionalType" href="https://schema.org/TouristAttraction">
-                <link itemprop="additionalType" href="https://schema.org/Museum">
                 <h1>
                     <span itemprop="name">Please Touch Museum</span>
                 </h1>
