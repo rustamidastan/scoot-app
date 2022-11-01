@@ -22,28 +22,23 @@
         </div>
       </div>
 
-      <div itemscope itemtype="https://schema.org/Place">
-                <h1>
-                    <span itemprop="name">Please Touch Museum</span>
-                </h1>
-                <div>
-                    It is a
-                    <div itemprop="touristType" itemscope itemtype="https://schema.org/Audience">
-                        <span itemprop="audienceType">children</span>
-                    </div>'s museum located in
-                    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                        <div itemprop="addressLocality">
-                            Philadelphia
-                        </div>,
-                        <div itemprop="addressCountry">
-                            USA
-                        </div>.
-                    </div>
-                </div>
-                <div>
-                    <span itemprop="description">The museum focuses on teaching children through interactive exhibits and special events.</span>
-                </div>
-            </div>
+      <div itemscope itemtype="https://schema.org/Store">
+  <div>
+    <h1 itemprop="name">Delia's Daily Supplies</h1>
+    <p itemprop="description">For your daily newspapers, candies, snacks and (via our in-store pharmacy)
+      drugs and healthcare products to keep you and your family happy, healthy and supplied with all your daily needs.</p>
+    <p>Open: <span itemprop="openingHours" content="Mo-Fr 07:00-23:00">Monday-Friday 7am-11pm </span></p>
+    <p>Phone: <span itemprop="telephone" content="+1 8005551234">800-555-1234</span></p>
+  </div>
+
+  <div itemprop="department" itemscope itemtype="https://schema.org/Pharmacy">
+    <h2 itemprop="name">Philippa's Pharmacy</h2>
+    <p itemprop="description">A superb collection of fine pharmaceuticals for your beauty and healthcare needs,
+      a department of Delia's Drugstore. Call our desk to speak to the on-duty pharmacist any morning Monday-Thursday.</p>
+    <p>Open: <span itemprop="openingHours" content="Mo-Th 09:00-12:00">Monday-Thursday 9am-noon</span></p>
+    <p>Phone: <span itemprop="telephone" content="+155501001111">555-0100-1111</span></p>
+  </div>
+</div>
 
       <div itemscope itemtype="https://schema.org/Product">
 
