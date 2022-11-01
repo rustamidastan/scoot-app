@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div itemscope itemtype="https://schema.org/Park">
+      <div itemscope itemtype="https://schema.org/Museum">
             <span itemprop="name">Shinjuku Gyoen</span>
             <span itemprop="address">11 Naitomachi, Shinjuku City, Tokyo 160-0014, Japan</span>
             <a href="https://www.env.go.jp/garden/shinjukugyoen/index.html" itemprop="url">Official Website of Shinjuku Gyoen</a>
