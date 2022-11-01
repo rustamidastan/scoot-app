@@ -1,22 +1,22 @@
 <template>
     <div>
-        <div itemscope itemtype="https://schema.org/SoftwareApplication">
+        <div itemscope itemtype="https://schema.org/SoftwareApplications">
         <span itemprop="name">Angry Birds</span> - REQUIRES
         <span itemprop="operatingSystem">ANDROID</span><br />
         <link
           itemprop="applicationCategory"
-          href="https://schema.org/GameApplication" />
+          href="https://schema.org/GameApplications" />
       
         <div
           itemprop="aggregateRating"
           itemscope
-          itemtype="https://schema.org/AggregateRating">
+          itemtype="https://schema.org/AggregateRatings">
           RATING:
           <span itemprop="ratingValue">4.6</span> (
           <span itemprop="ratingCount">8864</span> ratings )
         </div>
       
-        <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+        <div itemprop="offers" itemscope itemtype="https://schema.org/Offers">
           Price: $<span itemprop="price">1.00</span>
           <meta itemprop="priceCurrency" content="USD" />
         </div>
