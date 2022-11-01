@@ -22,11 +22,29 @@
         </div>
       </div>
 
-      <div itemscope itemtype="https://schema.org/Museum">
-            <span itemprop="name">Shinjuku Gyoen</span>
-            <span itemprop="address">11 Naitomachi, Shinjuku City, Tokyo 160-0014, Japan</span>
-            <a href="https://www.env.go.jp/garden/shinjukugyoen/index.html" itemprop="url">Official Website of Shinjuku Gyoen</a>
-      </div>
+      <div itemscope itemtype="https://schema.org/TouristAttraction">
+    <link itemprop="additionalType" href="https://schema.org/Museum">
+    <h1>
+        <span itemprop="name">Please Touch Museum</span>
+    </h1>
+    <div>
+        It is a
+        <div itemprop="touristType" itemscope itemtype="https://schema.org/Audience">
+            <span itemprop="audienceType">children</span>
+        </div>'s museum located in
+        <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <div itemprop="addressLocality">
+                Philadelphia
+            </div>,
+            <div itemprop="addressCountry">
+                USA
+            </div>.
+        </div>
+    </div>
+    <div>
+        <span itemprop="description">The museum focuses on teaching children through interactive exhibits and special events.</span>
+    </div>
+</div>
 
       <div itemscope itemtype="https://schema.org/Product">
 
