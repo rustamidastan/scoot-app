@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div itemscope itemtype="https://schema.org/SoftwareApplication">
+        <!-- <div itemscope itemtype="https://schema.org/SoftwareApplication">
         <span itemprop="name">Angry Birds</span> - REQUIRES
         <span itemprop="operatingSystem">ANDROID</span><br />
         <link
@@ -20,7 +20,7 @@
           Price: $<span itemprop="price">1.00</span>
           <meta itemprop="priceCurrency" content="USD" />
         </div>
-      </div>
+      </div> -->
 
       <div itemscope itemtype="https://schema.org/Museum">
             <span itemprop="name">Shinjuku Gyoen</span>
