@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import Location from "../views/Location.vue";
 import Careers from "../views/Careers.vue";
+import Test from "../views/Test.vue";
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     name: "Careers",
     component: Careers,
   },
+  {
+    path: "/test",
+    name: "Test",
+    component: Test,
+  }
 ];
 
 const router = createRouter({
